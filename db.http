@@ -1,0 +1,26 @@
+###
+
+DELETE http://localhost:1234/delbyname/remove/Sanji01
+
+###
+
+GET http://localhost:1234/listAll
+
+###
+POST http://localhost:1234/insert
+Content-Type: application/json
+
+{
+    "Name_of_the_Faculty":"Vishnu",
+    "Date_of_Visit":"2004-08-25",
+    "Name_of_Industries_Institution_visited":"ZOHOCompany",
+    "Location_of_Industry_Institution_visited":"Theni",
+    "Website_Link_of_Industry_Institution_visited":"Content-Type: ",
+    "Name_of_Industry_Institution_Person_Interacted":"Vishnu-ZOHO",
+    "Designation_of_Industry_Institution_Person_Interacted":"Mysore",
+    "Purpose_of_the_Visit":"Getting Knowledge",
+    "Outcome_of_the_Activity":"Outcome the visite",
+    "Report_of_Visit_PDF":"",
+    "Photos_JPG":"",
+    "Geotagged_Photos_PDF":""
+}
